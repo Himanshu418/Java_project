@@ -12,10 +12,6 @@ public class DoctorDaoDriven implements DoctorDao {
 	public int addDoctor(Doctor doctor) {
 
 		list.add(doctor);
-		list.add(new Doctor(101,"Sharma","8097882233","Surgeon","morning",100));
-		list.add(new Doctor(102,"Ram","8097982298","Orthopedics","morning",100));
-		list.add(new Doctor(103,"Sita","8097989998","Neurology","morning",300));
-		list.add(new Doctor(104,"Ravan","8097989998","Dermatology","evening",60));
 		return doctor.getDoctorId();
 	}
 
